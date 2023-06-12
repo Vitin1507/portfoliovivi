@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+    
+    .titulo {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 50px;
+      letter-spacing: 4px;
+      color: rgb(78, 78, 78);
+    }
+        
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 0px;
+      display: flex;
+    }
+    
+    li {
+      margin: 0 10px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: rgb(83, 83, 83);
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+    }
+
+    .cutout {
+      margin-top: 20px;
+      font-family: Arial, sans-serif;
+      color: rgb(77, 77, 77);
+    }
+
+    h2 {
+        margin-top: 0px;
+        color: rgb(77, 77, 77);
+    }
+
+    .video-container {
+      margin-top: 20px;
+    }
+    
+    .tradigi {
+        margin-top: 20px;
+        color: rgb(77, 77, 77);
+        text-align: center;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .video-grid video {
+      width: 100%;
+      height: 100%;
+    }
+
+    .behance {
+        margin-top: 50px;
+      font-family: Arial, sans-serif;
+      color: rgb(77, 77, 77);
+      text-align: center;
+    }
+
+    .button a {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .brigado {
+        margin-top: 20px;
+      font-family: Arial, sans-serif;
+      color: rgb(77, 77, 77);
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 class="titulo">VITOR ALTAVISTA MARTINS</h1>
+   
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="sobremim.html">Sobre Mim</a></li>
+    <li><a href="contato.html">Contato</a></li>
+    <li><a href="jobs.html">Jobs</a></li>
+  </ul>
+
+  <h1 class="cutout">Cut Out Reel</h1>
+
+  <h2>(Toon boom)</h2>
+
+  <div class="video-container">
+    <video width="640" height="360" controls>
+      <source src="./assets/demoreelfinalizada.mp4" type="video/mp4">
+    </video>
+
+    <h1 class="tradigi">Some Cool Tradigi:</h1>
+
+    <div class="video-grid">
+        <div>
+          <video controls>
+            <source src="./assets/52oni.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <video controls>
+            <source src="./assets/misen1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <video controls>
+            <source src="./assets/Misen3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <video controls>
+            <source src="./assets/52oni.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <h1 class="behance">Va ver o meu Behance!</h1>
+
+      <div class="button">
+        <a href="https://www.behance.net/astronto">Behance</a>
+      </div>
+
+      <h1 class="brigado">Obrigado por avaliar meu portfólio!</h1>
+
+</body> 
+</html>
